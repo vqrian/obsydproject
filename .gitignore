@@ -1,0 +1,30 @@
+# Local and deployed credentials
+.private/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
+/worker/wrangler.production.json
+/client/config.generated.hpp
+/client/public-key.json
+/client-package/
+*.pem
+*.key
+*.pfx
+*.p12
+*.sqlite
+*.sqlite-*
+
+# Dependencies and build output
+.tools/
+node_modules/
+/build/
+/dist/
+*.class
+*.jar
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.zip

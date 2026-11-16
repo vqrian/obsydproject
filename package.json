@@ -1,0 +1,19 @@
+{
+  "name": "obsyd-cosmetics",
+  "version": "0.4.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build:agent": "node tools/build-agent.mjs",
+    "test:agent": "node tests/agent/run.mjs",
+    "prepare:commercial": "node tools/prepare-commercial.mjs",
+    "setup:cloudflare": "node tools/cloudflare-setup.mjs",
+    "update:cloudflare": "node tools/cloudflare-update.mjs",
+    "dev": "node tools/local-server.mjs",
+    "keys": "node tools/generate-config.mjs",
+    "admin": "node tools/admin.mjs"
+  }
+}
